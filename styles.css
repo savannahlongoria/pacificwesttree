@@ -1,0 +1,371 @@
+body {
+	font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #555;
+	background-color: #bcb59a;
+	line-height: 18px;
+	margin: 0px;
+	padding: 0px;
+}
+#wrapper {
+	background: url(images/bg_repeat.jpg) repeat-x;
+
+}
+.container {
+	margin: 0px auto;
+	width: 1022px;
+	position: relative;
+}
+.container_fixed {
+	width: 976px;
+	position: relative;
+	margin: 0px auto;
+	padding: 0px;
+}
+ul#nav {
+	margin: 15px 8px 0px 0px;
+	position: absolute;
+	right: 0px;
+	z-index: 1;
+	padding-top: 12px;
+}
+ul#nav  li  {
+	display: inline;
+	color: #98cb31;
+	font-size: 18px;
+	padding-left: 20px;
+}
+ul#nav    li  a {
+	text-decoration: none;
+	color: #98cb31;
+	font: 18px "Segoe UI", Arial, Helvetica, sans-serif;
+
+}
+ul#nav      li    a.active, ul#nav   li   a:hover{
+	color: #FFFFFF;
+}
+#header/* LOGO */
+ {
+	padding-top: 2px;
+}
+#logo {
+	background: url(images/logo.png) no-repeat;
+	width: 390px;
+	margin-top: 15px;
+	height: 126px;
+	position: absolute;
+	z-index: 1;
+
+}
+#logo h1 {
+	display: block;
+	text-indent: -9999px;
+	margin: 0px;
+}
+
+#content_wrapper/* SUBPAGE */
+ {
+	padding: 0px;
+	min-height: 450px;
+	width: 976px;
+	background: url(images/bg_content.png) repeat-y center;
+	right: 0px;
+}
+#content_wrapper2/* SUBPAGE */
+ {
+	padding: 0px;
+	width: 976px;
+	background: url(images/bg_content.png) repeat-y center;
+	right: 0px;
+}
+.contactinfo {
+	color: #7eaa25;
+	font-size: 18px;
+	font-weight: bold;
+}
+.contactinfo a:link {
+	color: #b14b20;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	font-style: italic;
+}
+.contactinfo a:hover {
+	color: #b14b20;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	font-style: italic;
+}
+#content_block {
+	float: left;
+	position: relative;
+	padding: 36px 36px 0px 36px;
+	background: url(images/bg_header.png) no-repeat;
+	width: 904px;
+}
+#fader_container {
+	z-index: 0;
+	position: relative;
+	padding: 79px 8px 0px 8px;
+	height: 243px;
+
+}
+#fader {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#sidebar {
+	float: left;
+	width: 266px;
+	position: relative;
+	padding: 20px 20px 0px 20px;
+}
+
+/* FOOTER */
+#footer {
+	margin:0px;
+	padding: 0px;
+	font-size: 11px;
+	color: #88836f;
+}
+.footerbg {
+	background: url(images/bg_footer.png) no-repeat center;
+	height: 58px;
+}
+
+.footer_column {
+	float: left;
+	width: 472px;
+	margin-top: 59px;
+	padding: 0px 8px 20px 8px;
+
+}
+.footer_column ul {
+	margin: 0px;
+	padding: 0px;
+	text-align: right;
+}
+.footer_column li {
+	display: inline;
+}
+.footer_column  li a {
+	text-decoration: none;
+	color: #88836f;
+}
+.footer_column li a:hover {
+	text-decoration: none;
+	color: #88836f;
+	border-bottom: 1px dotted #88836f;
+}
+
+h1 {
+	color: #555;
+	font: normal 24px "Segoe UI", Arial, Helvetica, sans-serif;
+	letter-spacing: -0.02em;
+	margin: 0px 0px -4px 0px;
+	padding: 0px;
+}
+
+h2 {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #555;
+	margin:0px 0px 20px;
+}
+h3 {
+	font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	color: #555;
+}
+p {
+	font-size: 14px;
+	line-height: 1.6em;
+	color: #666;
+}
+a:link, a:visited {
+	color: #b14b20;
+	text-decoration: underline;
+}
+a:hover, a:active {
+	color: #7eaa25;
+}
+hr {
+  	border: none;
+  	width: 98%;
+	background-color:#d2ceb4;
+	height: 1px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+/* Give Online Button */
+
+.button {
+	padding: 8px 76px 8px 60px;
+	margin-top: 20px;
+	position: relative;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 20px;
+	text-decoration: none;
+	color: #fff;
+	background: #C42C40 url(images/bg_givebtn.gif) repeat-x bottom;
+	text-transform: uppercase;
+	border-top: 2px solid #ed566b;
+	border-right: 2px solid #a51628;
+	border-bottom: 2px solid #a51628;
+	border-left: 2px solid #ed566b;
+}
+.button img {
+	position: absolute;
+	top: 0px;
+	left: 182px;
+	border: none;
+}
+.button:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.button:active {
+	color: #fff;
+	text-decoration: none;
+	top: 1px;
+	left: 1px;
+}
+a.button {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Search */
+.textfield {
+	border:1px solid #FFFFFF;
+	width:208px;
+	height:18px;
+	background-image:url(images/input_back.gif);
+	margin-top:30px;
+	margin-right:10px;
+	padding:5px;
+	background-repeat: repeat-x;
+	float: left;
+}
+.button2 {
+	height: 30px;
+	width: 70px;
+	background-image: url(images/bg-button.png);
+	background-repeat: no-repeat;
+	border:0px;
+	float: right;
+	margin-top:30px;
+}
+.desc {
+	color: #becde1;
+	font: normal 11px Arial, Helvetica, sans-serif;
+	text-transform: capitalize;
+	padding: 0px;
+	margin: 0px;
+}
+.desc img {
+	border-style: none;
+}
+
+.clear/* CONTENT */
+ {
+	clear:both;
+}
+table {
+	border-collapse: collapse;
+}
+.content_column h1, p {
+	padding: 0px 4px 0px 8px;
+}
+.content_column {
+	width: 285px;
+	float: left;
+}
+.middle {
+	margin-right: 24px;
+	margin-left: 24px;
+}
+.column_image {
+	width: 285px;
+	height: 157px;
+}
+.content_column.middle ul li {
+	display: inline-block;
+	font-size: 13px;
+	line-height: 1.7em;
+}
+
+.content_column.middle ul {
+	list-style: none;
+	padding: 0px;
+}
+.paddingleft {
+	padding-left: 25px;
+}
+.btn_gallery {
+	display: inline-block;
+	cursor: pointer;
+	height: 21px;
+	width: 91px;
+	position: relative;
+	right: -188px;
+}
+
+.btn_gallery a {
+	background: url(images/btn_galleryoff.gif) no-repeat;
+	height: 21px;
+	width: 91px;
+	text-indent: -9999px;
+	display: inline-block;
+}
+.btn_gallery a:hover {
+	background: url(images/btn_galleryon.gif) no-repeat;
+	height: 21px;
+	width: 91px;
+}
+.subhead {
+	color: #BD4B20;
+	font-size: 18px;
+}
+form {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.content_column2 {
+	width: 449px;
+	float: left;
+}
+
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to structure the use of media queries is to create the queries
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
+*/
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery>
+    <album id="ssp1" lgPath="gallery/album1/images/" tnPath="gallery/album1/thumb/" title="2001 - Johnson Residence" description="Fairfield, CA - (60) F/G Olives, (6) Date Palms" tn="gallery/album1/preview.jpg">
+        <img src="1.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+    </album>
+	<album id="ssp2" lgPath="gallery/album2/images/" tnPath="gallery/album2/thumb/" title="2003 - Newview Landscape" description="Brentwood, CA - (12) 84-inch Boxed Olives" tn="gallery/album2/preview.jpg">
+        <img src="1.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+    </album>
+	<album id="ssp3" lgPath="gallery/album3/images/" tnPath="gallery/album3/thumb/" title="2003 - Packwood Creek (Phase I)" description="Visalia, CA - (60) Date Palms, (8) Wash. Palms" tn="gallery/album3/preview.jpg">
+        <img src="1.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+    </album>
+	<album id="ssp4" lgPath="gallery/album4/images/" tnPath="gallery/album4/thumb/" title="2003 - Mauricio's Grill &amp; Cantina" description="Bakersfield, CA - (7) Canary Palms, (9) Date Palms" tn="gallery/album4/preview.jpg">
+        <img src="1.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+    </album>
+	<album id="ssp5" lgPath="gallery/album5/images/" tnPath="gallery/album5/thumb/" title="2004 - Froehlich Masterpiece Estates" description="Bakersfield, CA - (6) Canary Palms" tn="gallery/album5/preview.jpg">
+        <img src="1.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+    </album>
+	<album id="ssp6" lgPath="gallery/album6/images/" tnPath="gallery/album6/thumb/" title="Morgan Stanley Building" description="San Luis Obispo, CA - (3) Canary Palms" tn="gallery/album6/preview.jpg">
+        <img src="1.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+    </album>
+	<album id="ssp7" lgPath="gallery/album7/images/" tnPath="gallery/album7/thumb/" title="2004 - Toscana C/C (Phase I)" description="La Quinta, CA - (210) 72-inch Olive Trees" tn="gallery/album7/preview.jpg">
+        <img src="1.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+    </album>
+	<album id="ssp8" lgPath="gallery/album8/images/" tnPath="gallery/album8/thumb/" title="2008 - Landscapes Plus" description="Visalia, CA - (2) Canary Palms" tn="gallery/album8/preview.jpg">
+        <img src="1.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+    </album>
+	<album id="ssp9" lgPath="gallery/album9/images/" tnPath="gallery/album9/thumb/" title="2009 - Hampton Inn" description="Visalia, CA - (4) Date Palms" tn="gallery/album9/preview.jpg">
+        <img src="1.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+    </album>
+	<album id="ssp10" lgPath="gallery/album10/images/" tnPath="gallery/album10/thumb/" title="2009 - Cal Home Builders" description="Calabasas, CA - (8) F/G Olives" tn="gallery/album10/preview.jpg">
+        <img src="1.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+    </album>
+</gallery>
